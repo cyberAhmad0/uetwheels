@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace uetwheels
 {
-    public partial class Signin : Form
+    public partial class Delete : Form
     {
-        public Signin()
+        public Delete()
         {
             InitializeComponent();
-        }
-
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Signin_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

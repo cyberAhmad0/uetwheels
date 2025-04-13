@@ -10,19 +10,24 @@ using System.Windows.Forms;
 
 namespace uetwheels
 {
-    public partial class Signin : Form
+    public partial class Add : Form
     {
-        public Signin()
+        public Add()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Signin_Load(object sender, EventArgs e)
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Add_Load(object sender, EventArgs e)
         {
 
         }
