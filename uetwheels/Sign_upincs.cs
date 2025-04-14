@@ -24,12 +24,32 @@ namespace uetwheels
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            //guna2Panel2.Controls.Clear();
-            Adminform form = new Adminform();
-            //form.TopLevel = false;
-            //form.BringToFront();
-            form.Show();
-            this.Hide();
+            guna2Panel2.Controls.Clear();
+            string username = guna2TextBox4.Text;
+            string password = guna2TextBox5.Text;
+            if (username == "abcd@gmail.com" && password == "123aa")
+            {
+                Adminform form = new Adminform();
+                //form.TopLevel = false;
+                //form.BringToFront();
+                MessageBox.Show("Login Successfull");
+                form.Show();
+                this.Close();
+                this.Hide();
+            } 
+            else 
+            {
+                MessageBox.Show("Invalid info");
+                Sign_upincs sign = new Sign_upincs();
+                sign.Show();
+                this.Hide();
+
+            }
+        }
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }
