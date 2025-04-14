@@ -85,6 +85,17 @@ namespace uetwheels.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI_generated_PSD_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI-generated_PSD" +
+                        "-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Money_Bag_SVG___Cash_Dollars_Finance_Wealth_Money_Sack_Printable_Clip_Art_Cut_File__Instant_Download__Commercial_Use__svg_png_jpg_eps_pdf_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Money_Bag_SVG_-_Cash_Dollars_Finance_Wealth_Money_Sack_Printable_Clip_Art_Cut_Fil" +

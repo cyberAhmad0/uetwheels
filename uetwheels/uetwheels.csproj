@@ -177,5 +177,8 @@
   <ItemGroup>
     <None Include="Resources\Money_Bag_SVG_-_Cash_Dollars_Finance_Wealth_Money_Sack_Printable_Clip_Art_Cut_File__Instant_Download__Commercial_Use__svg_png_jpg_eps_pdf-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI-generated_PSD-removebg-preview1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
