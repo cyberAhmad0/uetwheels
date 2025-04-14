@@ -29,26 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             this.ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2ControlBox1
-            // 
-            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2ControlBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2ControlBox1.IconColor = System.Drawing.Color.White;
-            this.guna2ControlBox1.Location = new System.Drawing.Point(670, 0);
-            this.guna2ControlBox1.Name = "guna2ControlBox1";
-            this.guna2ControlBox1.Size = new System.Drawing.Size(48, 26);
-            this.guna2ControlBox1.TabIndex = 1;
             // 
             // ProgressBar1
             // 
@@ -109,6 +98,18 @@
             this.guna2CirclePictureBox1.TabIndex = 2;
             this.guna2CirclePictureBox1.TabStop = false;
             // 
+            // guna2ControlBox1
+            // 
+            this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
+            this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2ControlBox1.IconColor = System.Drawing.Color.DimGray;
+            this.guna2ControlBox1.Location = new System.Drawing.Point(670, -1);
+            this.guna2ControlBox1.Name = "guna2ControlBox1";
+            this.guna2ControlBox1.Size = new System.Drawing.Size(48, 26);
+            this.guna2ControlBox1.TabIndex = 8;
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,12 +117,12 @@
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(717, 375);
+            this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ProgressBar1);
             this.Controls.Add(this.guna2CirclePictureBox1);
-            this.Controls.Add(this.guna2ControlBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -133,13 +134,13 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2ProgressBar ProgressBar1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Timer timer1;
+        private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
     }
 }
 

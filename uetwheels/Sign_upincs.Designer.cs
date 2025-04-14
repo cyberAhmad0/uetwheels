@@ -30,6 +30,9 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -38,9 +41,6 @@
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
@@ -64,6 +64,42 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(724, 387);
             this.guna2Panel2.TabIndex = 11;
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Gainsboro;
+            this.guna2Panel1.Controls.Add(this.label6);
+            this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(266, 387);
+            this.guna2Panel1.TabIndex = 27;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label6.Location = new System.Drawing.Point(37, 261);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(177, 42);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Car Rental \r\nManagemen System";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox1.Image = global::uetwheels.Properties.Resources.A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI_generated_PSD_removebg_preview;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(266, 258);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 1;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -135,6 +171,7 @@
             // guna2ControlBox1
             // 
             this.guna2ControlBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2ControlBox1.ControlBoxStyle = Guna.UI2.WinForms.Enums.ControlBoxStyle.Custom;
             this.guna2ControlBox1.FillColor = System.Drawing.Color.Transparent;
             this.guna2ControlBox1.IconColor = System.Drawing.Color.DimGray;
             this.guna2ControlBox1.Location = new System.Drawing.Point(676, 3);
@@ -181,42 +218,6 @@
             this.label5.Size = new System.Drawing.Size(76, 24);
             this.label5.TabIndex = 16;
             this.label5.Text = "Email:";
-            // 
-            // guna2Panel1
-            // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.Gainsboro;
-            this.guna2Panel1.Controls.Add(this.label6);
-            this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
-            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(266, 387);
-            this.guna2Panel1.TabIndex = 27;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label6.Location = new System.Drawing.Point(37, 261);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(177, 42);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Car Rental \r\nManagemen System";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::uetwheels.Properties.Resources.A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI_generated_PSD_removebg_preview;
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(266, 258);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 1;
-            this.guna2PictureBox1.TabStop = false;
             // 
             // guna2BorderlessForm1
             // 
