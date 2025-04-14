@@ -10,21 +10,16 @@ using System.Windows.Forms;
 
 namespace uetwheels
 {
-    public partial class Signin : Form
+    public partial class cars : Form
     {
-        public Signin()
+        public cars()
         {
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
         {
-
-        }
-
-        private void Signin_Load(object sender, EventArgs e)
-        {
-
+           
         }
     }
 }

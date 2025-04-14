@@ -21,5 +21,15 @@ namespace uetwheels
         {
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            //guna2Panel2.Controls.Clear();
+            Adminform form = new Adminform();
+            //form.TopLevel = false;
+            //form.BringToFront();
+            form.Show();
+            this.Hide();
+        }
     }
 }

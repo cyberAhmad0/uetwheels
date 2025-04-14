@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace uetwheels
 {
-    public partial class Update : Form
+    public partial class userscs : Form
     {
-        public Update()
+        public userscs()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void userscs_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

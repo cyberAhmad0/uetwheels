@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace uetwheels
 {
-    public partial class Delete : Form
+    public partial class rental : Form
     {
-        public Delete()
+        public rental()
         {
             InitializeComponent();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

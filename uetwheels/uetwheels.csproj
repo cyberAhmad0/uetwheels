@@ -52,23 +52,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add.cs">
+    <Compile Include="customer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Add.Designer.cs">
-      <DependentUpon>Add.cs</DependentUpon>
+    <Compile Include="customer.Designer.cs">
+      <DependentUpon>customer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Category.cs">
+    <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Category.Designer.cs">
-      <DependentUpon>Category.cs</DependentUpon>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Delete.cs">
+    <Compile Include="rental.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Delete.Designer.cs">
-      <DependentUpon>Delete.cs</DependentUpon>
+    <Compile Include="rental.Designer.cs">
+      <DependentUpon>rental.cs</DependentUpon>
+    </Compile>
+    <Compile Include="return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="return.Designer.cs">
+      <DependentUpon>return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Adminform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Adminform.Designer.cs">
+      <DependentUpon>Adminform.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -78,32 +90,38 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Signin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Signin.Designer.cs">
-      <DependentUpon>Signin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Sign_upincs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Sign_upincs.Designer.cs">
       <DependentUpon>Sign_upincs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Update.cs">
+    <Compile Include="cars.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Update.Designer.cs">
-      <DependentUpon>Update.cs</DependentUpon>
+    <Compile Include="cars.Designer.cs">
+      <DependentUpon>cars.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Add.resx">
-      <DependentUpon>Add.cs</DependentUpon>
+    <Compile Include="userscs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userscs.Designer.cs">
+      <DependentUpon>userscs.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="customer.resx">
+      <DependentUpon>customer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Category.resx">
-      <DependentUpon>Category.cs</DependentUpon>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Delete.resx">
-      <DependentUpon>Delete.cs</DependentUpon>
+    <EmbeddedResource Include="rental.resx">
+      <DependentUpon>rental.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="return.resx">
+      <DependentUpon>return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Adminform.resx">
+      <DependentUpon>Adminform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -116,15 +134,16 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Signin.resx">
-      <DependentUpon>Signin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Sign_upincs.resx">
       <DependentUpon>Sign_upincs.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Update.resx">
-      <DependentUpon>Update.cs</DependentUpon>
+    <EmbeddedResource Include="cars.resx">
+      <DependentUpon>cars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userscs.resx">
+      <DependentUpon>userscs.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -139,6 +158,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A black sports car with the license plate on the front _ Premium AI-generated PSD.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI-generated_PSD-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_Icon_Vector_Illustration_In_Glyph_Style_For_Any_Purpose_PNG_Images___Icon__Illustration__Template_PNG_Transparent_Background_-_Pngtree-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_Icon_Vector_Illustration_In_Glyph_Style_For_Any_Purpose_PNG_Images___Icon__Illustration__Template_PNG_Transparent_Background_-_Pngtree-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_icon_png_vector_-_Pixsector__Free_vector_images__mockups__PSDs_and_photos-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money_Bag_SVG_-_Cash_Dollars_Finance_Wealth_Money_Sack_Printable_Clip_Art_Cut_File__Instant_Download__Commercial_Use__svg_png_jpg_eps_pdf-removebg-preview.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
