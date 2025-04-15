@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace uetwheels
 {
     public partial class dashboard : Form
     {
+        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        SqlConnection con = new SqlConnection(conn);
         public dashboard()
         {
             InitializeComponent();
@@ -25,6 +28,13 @@ namespace uetwheels
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            SqlCommand cmd = new SqlCommand("Select username from users");
+            //cmd.
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ namespace uetwheels
 {
     public partial class Sign_upincs : Form
     {
+        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        SqlConnection con = new SqlConnection(conn);
         public Sign_upincs()
         {
             InitializeComponent();
@@ -25,8 +28,21 @@ namespace uetwheels
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             guna2Panel2.Controls.Clear();
-            string username = guna2TextBox4.Text;
-            string password = guna2TextBox5.Text;
+            string username = g2tb_4.Text;
+            string password = g2tb_5.Text;
+            con.Open();
+            SqlCommand cmd = new SqlCommand(("Select * from users"),con);
+            SqlDataReader reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                string uname = reader.GetString(1);
+                string upass = reader.GetString(2);
+                if(username == uname && password == upass)
+                {
+                    MessageBox.Show("Userform are under maintainance");
+                }
+            }
+
             if (username == "abcd@gmail.com" && password == "123aa")
             {
                 Adminform form = new Adminform();
@@ -37,19 +53,18 @@ namespace uetwheels
                 this.Close();
                 this.Hide();
             } 
-            else 
-            {
-                MessageBox.Show("Invalid info");
-                Sign_upincs sign = new Sign_upincs();
-                sign.Show();
-                this.Hide();
-
-            }
+           
         }
 
         private void guna2TextBox4_TextChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            g2tb_4.Clear();
+            g2tb_5.Clear();
         }
     }
 }
