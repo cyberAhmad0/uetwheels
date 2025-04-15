@@ -59,7 +59,7 @@ namespace uetwheels
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            guna2Panel3.Controls.Clear();
+             guna2Panel3.Controls.Clear();
             cars form = new cars();
             form.TopLevel = false;
             guna2Panel3.Controls.Add(form);
