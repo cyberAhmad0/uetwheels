@@ -239,6 +239,7 @@
             this.guna2Button8.Size = new System.Drawing.Size(91, 36);
             this.guna2Button8.TabIndex = 19;
             this.guna2Button8.Text = "Add";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // guna2BorderlessForm1
             // 

@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
+using uetwheels.models;
 
 namespace uetwheels
 {
@@ -15,6 +17,8 @@ namespace uetwheels
         public Adminform()
         {
             InitializeComponent();
+            Datafile.loadcars();
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -115,6 +119,16 @@ namespace uetwheels
             Sign_upincs form = new Sign_upincs();
             form.Show();
             this.Hide();
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Adminform_Load(object sender, EventArgs e)
+        {
+           
         }
     }
 }

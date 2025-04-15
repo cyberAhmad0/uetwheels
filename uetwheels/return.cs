@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using uetwheels.models;
+
 
 namespace uetwheels
 {
@@ -29,7 +31,10 @@ namespace uetwheels
 
         private void Add_Load(object sender, EventArgs e)
         {
-
+            foreach (carinfo car in Datafile.carlist)
+            {
+                guna2ComboBox1.Items.Add(car.Brand);
+            }
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -46,5 +51,12 @@ namespace uetwheels
         {
 
         }
+
+       public void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        
     }
 }
