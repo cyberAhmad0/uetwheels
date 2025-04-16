@@ -66,6 +66,7 @@
     </Compile>
     <Compile Include="Datafile.cs" />
     <Compile Include="models\carinfo.cs" />
+    <Compile Include="models\customerinfo.cs" />
     <Compile Include="rental.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -18,6 +19,8 @@ namespace uetwheels
         {
             InitializeComponent();
             Datafile.loadcars();
+            Datafile.addcustomer();
+            
 
         }
 
@@ -105,6 +108,7 @@ namespace uetwheels
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+           
             guna2Panel3.Controls.Clear();
             dashboard dasform = new dashboard();
             dasform.TopLevel = false;
@@ -128,7 +132,17 @@ namespace uetwheels
 
         private void Adminform_Load(object sender, EventArgs e)
         {
-           
+            
+        }
+
+        private void Adminform_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();   
         }
     }
 }

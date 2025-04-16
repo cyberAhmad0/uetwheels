@@ -66,5 +66,10 @@ namespace uetwheels
             g2tb_4.Clear();
             g2tb_5.Clear();
         }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
