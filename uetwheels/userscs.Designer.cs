@@ -53,11 +53,12 @@
             this.g2tb_1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.g2tb_1.ForeColor = System.Drawing.Color.Black;
             this.g2tb_1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.g2tb_1.Location = new System.Drawing.Point(154, 122);
+            this.g2tb_1.Location = new System.Drawing.Point(205, 150);
+            this.g2tb_1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.g2tb_1.Name = "g2tb_1";
             this.g2tb_1.PlaceholderText = "";
             this.g2tb_1.SelectedText = "";
-            this.g2tb_1.Size = new System.Drawing.Size(194, 38);
+            this.g2tb_1.Size = new System.Drawing.Size(259, 47);
             this.g2tb_1.TabIndex = 23;
             // 
             // label2
@@ -66,9 +67,10 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Location = new System.Drawing.Point(38, 139);
+            this.label2.Location = new System.Drawing.Point(51, 171);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 21);
+            this.label2.Size = new System.Drawing.Size(79, 25);
             this.label2.TabIndex = 22;
             this.label2.Text = "Email";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -87,11 +89,12 @@
             this.g2tb_2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.g2tb_2.ForeColor = System.Drawing.Color.Black;
             this.g2tb_2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.g2tb_2.Location = new System.Drawing.Point(154, 187);
+            this.g2tb_2.Location = new System.Drawing.Point(205, 230);
+            this.g2tb_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.g2tb_2.Name = "g2tb_2";
             this.g2tb_2.PlaceholderText = "";
             this.g2tb_2.SelectedText = "";
-            this.g2tb_2.Size = new System.Drawing.Size(194, 38);
+            this.g2tb_2.Size = new System.Drawing.Size(259, 47);
             this.g2tb_2.TabIndex = 25;
             // 
             // label4
@@ -100,9 +103,10 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Modern No. 20", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label4.Location = new System.Drawing.Point(38, 204);
+            this.label4.Location = new System.Drawing.Point(51, 251);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(90, 21);
+            this.label4.Size = new System.Drawing.Size(111, 25);
             this.label4.TabIndex = 24;
             this.label4.Text = "Password";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -118,9 +122,10 @@
             this.guna2Button11.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button11.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button11.Location = new System.Drawing.Point(336, 300);
+            this.guna2Button11.Location = new System.Drawing.Point(448, 369);
+            this.guna2Button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button11.Name = "guna2Button11";
-            this.guna2Button11.Size = new System.Drawing.Size(91, 36);
+            this.guna2Button11.Size = new System.Drawing.Size(121, 44);
             this.guna2Button11.TabIndex = 28;
             this.guna2Button11.Text = "Clear";
             this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
@@ -136,11 +141,13 @@
             this.guna2Button10.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button10.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button10.Location = new System.Drawing.Point(237, 300);
+            this.guna2Button10.Location = new System.Drawing.Point(316, 369);
+            this.guna2Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(91, 36);
+            this.guna2Button10.Size = new System.Drawing.Size(121, 44);
             this.guna2Button10.TabIndex = 29;
             this.guna2Button10.Text = "Delete";
+            this.guna2Button10.Click += new System.EventHandler(this.guna2Button10_Click);
             // 
             // guna2Button9
             // 
@@ -153,9 +160,10 @@
             this.guna2Button9.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button9.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button9.Location = new System.Drawing.Point(136, 300);
+            this.guna2Button9.Location = new System.Drawing.Point(181, 369);
+            this.guna2Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(91, 36);
+            this.guna2Button9.Size = new System.Drawing.Size(121, 44);
             this.guna2Button9.TabIndex = 30;
             this.guna2Button9.Text = "Update";
             this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
@@ -171,9 +179,10 @@
             this.guna2Button8.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Location = new System.Drawing.Point(35, 300);
+            this.guna2Button8.Location = new System.Drawing.Point(47, 369);
+            this.guna2Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(91, 36);
+            this.guna2Button8.Size = new System.Drawing.Size(121, 44);
             this.guna2Button8.TabIndex = 31;
             this.guna2Button8.Text = "Add";
             this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
@@ -186,10 +195,10 @@
             // 
             // userscs
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(562, 358);
+            this.ClientSize = new System.Drawing.Size(749, 441);
             this.Controls.Add(this.guna2Button11);
             this.Controls.Add(this.guna2Button10);
             this.Controls.Add(this.guna2Button9);
@@ -199,6 +208,7 @@
             this.Controls.Add(this.g2tb_1);
             this.Controls.Add(this.label2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "userscs";
             this.Text = "userscs";
             this.Load += new System.EventHandler(this.userscs_Load);

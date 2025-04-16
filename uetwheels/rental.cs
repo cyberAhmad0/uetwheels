@@ -21,5 +21,10 @@ namespace uetwheels
         {
 
         }
+
+        private void rental_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

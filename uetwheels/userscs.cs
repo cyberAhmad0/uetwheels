@@ -13,7 +13,7 @@ namespace uetwheels
 {
     public partial class userscs : Form
     {
-        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;";
         SqlConnection con = new SqlConnection(conn);
         public userscs()
         {
@@ -61,6 +61,11 @@ namespace uetwheels
             con.Close();
             MessageBox.Show("Data Updated Successfully");
             
+        }
+
+        private void guna2Button10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

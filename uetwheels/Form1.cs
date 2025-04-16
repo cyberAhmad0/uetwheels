@@ -13,7 +13,7 @@ namespace uetwheels
 {
     public partial class Form1 : Form
     {
-        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=project;Integrated Security=True;Trust Server Certificate=True";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=project;Integrated Security=True";
         public Form1()
         {
             InitializeComponent();

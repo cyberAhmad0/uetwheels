@@ -13,7 +13,7 @@ namespace uetwheels
 {
     public partial class dashboard : Form
     {
-        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=project;Integrated Security=True;";
         SqlConnection con = new SqlConnection(conn);
         public dashboard()
         {
@@ -35,6 +35,11 @@ namespace uetwheels
             con.Open();
             SqlCommand cmd = new SqlCommand("Select username from users");
             //cmd.
+        }
+
+        private void dashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
