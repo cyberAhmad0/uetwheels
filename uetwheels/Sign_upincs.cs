@@ -26,21 +26,42 @@ namespace uetwheels
 
         }
 
+       
+
+        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Clear();
+            guna2TextBox2.Clear();
+        }
+
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             guna2Panel2.Controls.Clear();
-            string username = g2tb_4.Text;
-            string password = g2tb_5.Text;
+
+
+            string username = guna2TextBox1.Text;
+            string password = guna2TextBox2.Text;
             con.Open();
-            SqlCommand cmd = new SqlCommand(("Select * from users"),con);
+            SqlCommand cmd = new SqlCommand(("Select * from users"), con);
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
                 string uname = reader.GetString(1);
                 string upass = reader.GetString(2);
-                if(username == uname && password == upass)
+                if (username == uname && password == upass)
                 {
                     MessageBox.Show("Userform are under maintainance");
+
                 }
             }
 
@@ -53,24 +74,12 @@ namespace uetwheels
                 form.Show();
                 //this.Close();
                 this.Hide();
-            } 
-           
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void guna2Button2_Click(object sender, EventArgs e)
-        {
-            g2tb_4.Clear();
-            g2tb_5.Clear();
-        }
-
-        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
+            }
+            else
+            {
+                MessageBox.Show("Invalid Info");
+            }
+            con.Close();
         }
     }
 }

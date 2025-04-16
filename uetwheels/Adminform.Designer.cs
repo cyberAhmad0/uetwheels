@@ -211,7 +211,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label6.Location = new System.Drawing.Point(6, 6);
+            this.label6.Location = new System.Drawing.Point(42, 5);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(299, 24);
             this.label6.TabIndex = 6;
