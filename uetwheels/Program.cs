@@ -19,6 +19,8 @@ namespace uetwheels
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
             Console.WriteLine("hello world");
+            Console.WriteLine("hello world");
+
         }
     }
 }
