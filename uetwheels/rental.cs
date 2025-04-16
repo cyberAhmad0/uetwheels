@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using uetwheels.models;
 
 namespace uetwheels
 {
@@ -15,6 +16,7 @@ namespace uetwheels
         public rental()
         {
             InitializeComponent();
+            
         }
 
         private void label2_Click(object sender, EventArgs e)

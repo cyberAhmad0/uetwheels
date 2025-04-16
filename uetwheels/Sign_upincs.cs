@@ -44,14 +44,14 @@ namespace uetwheels
                 }
             }
 
-            if (username == "abcd@gmail.com" && password == "123aa")
+            if (username == "a" && password == "a")
             {
                 Adminform form = new Adminform();
                 //form.TopLevel = false;
                 //form.BringToFront();
                 MessageBox.Show("Login Successfull");
                 form.Show();
-                this.Close();
+                //this.Close();
                 this.Hide();
             } 
            

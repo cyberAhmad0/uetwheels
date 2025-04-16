@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
+using uetwheels.models;
 
 namespace uetwheels
 {
@@ -15,6 +18,10 @@ namespace uetwheels
         public Adminform()
         {
             InitializeComponent();
+            Datafile.loadcars();
+            Datafile.addcustomer();
+            
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -59,7 +66,7 @@ namespace uetwheels
 
         private void guna2Button1_Click_1(object sender, EventArgs e)
         {
-            guna2Panel3.Controls.Clear();
+             guna2Panel3.Controls.Clear();
             cars form = new cars();
             form.TopLevel = false;
             guna2Panel3.Controls.Add(form);
@@ -101,6 +108,7 @@ namespace uetwheels
 
         private void guna2Button6_Click(object sender, EventArgs e)
         {
+           
             guna2Panel3.Controls.Clear();
             dashboard dasform = new dashboard();
             dasform.TopLevel = false;
@@ -120,6 +128,26 @@ namespace uetwheels
         private void guna2Panel3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Adminform_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Adminform_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        {
+            this.Close();   
         }
     }
 }

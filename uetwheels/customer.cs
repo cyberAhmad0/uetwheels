@@ -12,6 +12,9 @@ namespace uetwheels
 {
     public partial class customer : Form
     {
+        internal int cust_id;
+        internal string Address;
+
         public customer()
         {
             InitializeComponent();

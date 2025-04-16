@@ -64,6 +64,9 @@
     <Compile Include="dashboard.Designer.cs">
       <DependentUpon>dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Datafile.cs" />
+    <Compile Include="models\carinfo.cs" />
+    <Compile Include="models\customerinfo.cs" />
     <Compile Include="rental.cs">
       <SubType>Form</SubType>
     </Compile>

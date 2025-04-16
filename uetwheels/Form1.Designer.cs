@@ -108,7 +108,7 @@
             this.guna2ControlBox1.Name = "guna2ControlBox1";
             this.guna2ControlBox1.Size = new System.Drawing.Size(48, 26);
             this.guna2ControlBox1.TabIndex = 8;
-            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click_1);
+            this.guna2ControlBox1.Click += new System.EventHandler(this.guna2ControlBox1_Click);
             // 
             // Form1
             // 
