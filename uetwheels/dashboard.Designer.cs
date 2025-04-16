@@ -325,7 +325,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "dashboard";
             this.Text = "dashboard";
-            this.Load += new System.EventHandler(this.dashboard_Load);
+            //this.Load += new System.EventHandler(this.dashboard_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

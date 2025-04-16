@@ -210,24 +210,24 @@
             // 
             // guna2TextBox1
             // 
-            this.guna2TextBox1.BorderRadius = 10;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(188, 26);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(259, 47);
-            this.guna2TextBox1.TabIndex = 21;
-            this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
+            //this.guna2TextBox1.BorderRadius = 10;
+            //this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            //this.guna2TextBox1.DefaultText = "";
+            //this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            //this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            //this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            //this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            //this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            //this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            //this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            //this.guna2TextBox1.Location = new System.Drawing.Point(188, 26);
+            //this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            //this.guna2TextBox1.Name = "guna2TextBox1";
+            //this.guna2TextBox1.PlaceholderText = "";
+            //this.guna2TextBox1.SelectedText = "";
+            //this.guna2TextBox1.Size = new System.Drawing.Size(259, 47);
+            //this.guna2TextBox1.TabIndex = 21;
+            //this.guna2TextBox1.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // label7
             // 
@@ -287,17 +287,17 @@
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Bold);
-            this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label2.Location = new System.Drawing.Point(44, 50);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(86, 25);
-            this.label2.TabIndex = 17;
-            this.label2.Text = "Reg no";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //this.label2.AutoSize = true;
+            //this.label2.BackColor = System.Drawing.Color.Transparent;
+            //this.label2.Font = new System.Drawing.Font("Modern No. 20", 14F, System.Drawing.FontStyle.Bold);
+            //this.label2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            //this.label2.Location = new System.Drawing.Point(44, 50);
+            //this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            //this.label2.Name = "label2";
+            //this.label2.Size = new System.Drawing.Size(86, 25);
+            //this.label2.TabIndex = 17;
+            //this.label2.Text = "Reg no";
+            //this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cars
             // 
