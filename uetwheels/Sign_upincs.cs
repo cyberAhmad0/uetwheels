@@ -13,7 +13,8 @@ namespace uetwheels
 {
     public partial class Sign_upincs : Form
     {
-        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;";
         SqlConnection con = new SqlConnection(conn);
         public Sign_upincs()
         {
@@ -67,9 +68,9 @@ namespace uetwheels
             g2tb_5.Clear();
         }
 
-        private void guna2ControlBox1_Click(object sender, EventArgs e)
+        private void guna2Panel2_Paint(object sender, PaintEventArgs e)
         {
-            this.Close();
+
         }
     }
 }

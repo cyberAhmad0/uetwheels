@@ -27,19 +27,6 @@ namespace uetwheels
 
         private void rental_Load(object sender, EventArgs e)
         {
-            foreach(carinfo car in Datafile.carlist)
-            {
-                guna2ComboBox2.Items.Add(car.Brand);
-            }
-
-            foreach(customerinfo cobj in Datafile.customerlist)
-            {
-                guna2ComboBox1.Items.Add(cobj.Name);
-            }
-        }
-
-        private void guna2ComboBox2_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
         }
 

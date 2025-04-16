@@ -13,7 +13,7 @@ namespace uetwheels
 {
     public partial class dashboard : Form
     {
-        static string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=project;Integrated Security=True;";
         SqlConnection con = new SqlConnection(conn);
         public dashboard()
         {
@@ -88,6 +88,11 @@ namespace uetwheels
             }
             con.Close();
             label2.Text = cars.ToString();
+        }
+
+        private void dashboard_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
