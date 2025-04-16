@@ -39,8 +39,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(this.components);
             this.guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -87,9 +85,9 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.label1.Location = new System.Drawing.Point(15, 239);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 18);
+            this.label1.Size = new System.Drawing.Size(43, 18);
             this.label1.TabIndex = 27;
-            this.label1.Text = "Price";
+            this.label1.Text = "Rent";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -113,9 +111,9 @@
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label4.Location = new System.Drawing.Point(15, 115);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 18);
+            this.label4.Size = new System.Drawing.Size(79, 18);
             this.label4.TabIndex = 30;
-            this.label4.Text = "Name";
+            this.label4.Text = "Car Name";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
@@ -146,6 +144,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(194, 36);
             this.guna2ComboBox1.TabIndex = 40;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -155,9 +154,9 @@
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label6.Location = new System.Drawing.Point(15, 195);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(99, 18);
+            this.label6.Size = new System.Drawing.Size(77, 18);
             this.label6.TabIndex = 29;
-            this.label6.Text = "Return Date";
+            this.label6.Text = "Due Date";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // guna2DateTimePicker2
@@ -185,45 +184,11 @@
             this.guna2Button11.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button11.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button11.Location = new System.Drawing.Point(337, 299);
+            this.guna2Button11.Location = new System.Drawing.Point(292, 299);
             this.guna2Button11.Name = "guna2Button11";
             this.guna2Button11.Size = new System.Drawing.Size(91, 36);
             this.guna2Button11.TabIndex = 41;
             this.guna2Button11.Text = "Clear";
-            // 
-            // guna2Button10
-            // 
-            this.guna2Button10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button10.BorderRadius = 10;
-            this.guna2Button10.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button10.FillColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2Button10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button10.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button10.Location = new System.Drawing.Point(240, 299);
-            this.guna2Button10.Name = "guna2Button10";
-            this.guna2Button10.Size = new System.Drawing.Size(91, 36);
-            this.guna2Button10.TabIndex = 42;
-            this.guna2Button10.Text = "Delete";
-            // 
-            // guna2Button9
-            // 
-            this.guna2Button9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button9.BorderRadius = 10;
-            this.guna2Button9.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button9.FillColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2Button9.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button9.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button9.Location = new System.Drawing.Point(137, 299);
-            this.guna2Button9.Name = "guna2Button9";
-            this.guna2Button9.Size = new System.Drawing.Size(91, 36);
-            this.guna2Button9.TabIndex = 43;
-            this.guna2Button9.Text = "Update";
             // 
             // guna2Button1
             // 
@@ -236,11 +201,12 @@
             this.guna2Button1.FillColor = System.Drawing.SystemColors.AppWorkspace;
             this.guna2Button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(36, 299);
+            this.guna2Button1.Location = new System.Drawing.Point(101, 299);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(91, 36);
             this.guna2Button1.TabIndex = 44;
             this.guna2Button1.Text = "Add";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2BorderlessForm1
             // 
@@ -272,8 +238,6 @@
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(562, 358);
             this.Controls.Add(this.guna2Button11);
-            this.Controls.Add(this.guna2Button10);
-            this.Controls.Add(this.guna2Button9);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2ComboBox2);
             this.Controls.Add(this.guna2ComboBox1);
@@ -306,8 +270,6 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
         private Guna.UI2.WinForms.Guna2Button guna2Button11;
-        private Guna.UI2.WinForms.Guna2Button guna2Button10;
-        private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2BorderlessForm guna2BorderlessForm1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;

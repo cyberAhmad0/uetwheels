@@ -33,7 +33,7 @@
             this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button9 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
+            this.g2b_add = new Guna.UI2.WinForms.Guna2Button();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
@@ -101,22 +101,23 @@
             this.guna2Button9.TabIndex = 11;
             this.guna2Button9.Text = "Update";
             // 
-            // guna2Button8
+            // g2b_add
             // 
-            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.BorderRadius = 10;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Location = new System.Drawing.Point(36, 297);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(91, 36);
-            this.guna2Button8.TabIndex = 12;
-            this.guna2Button8.Text = "Add";
+            this.g2b_add.BackColor = System.Drawing.Color.Transparent;
+            this.g2b_add.BorderRadius = 10;
+            this.g2b_add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.g2b_add.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.g2b_add.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.g2b_add.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.g2b_add.FillColor = System.Drawing.SystemColors.AppWorkspace;
+            this.g2b_add.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.g2b_add.ForeColor = System.Drawing.Color.Black;
+            this.g2b_add.Location = new System.Drawing.Point(36, 297);
+            this.g2b_add.Name = "g2b_add";
+            this.g2b_add.Size = new System.Drawing.Size(91, 36);
+            this.g2b_add.TabIndex = 12;
+            this.g2b_add.Text = "Add";
+            this.g2b_add.Click += new System.EventHandler(this.g2b_add_Click);
             // 
             // guna2ComboBox1
             // 
@@ -241,9 +242,9 @@
             this.label3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label3.Location = new System.Drawing.Point(33, 96);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 21);
+            this.label3.Size = new System.Drawing.Size(93, 21);
             this.label3.TabIndex = 16;
-            this.label3.Text = "Brand";
+            this.label3.Text = "Car Name";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // cars
@@ -255,7 +256,7 @@
             this.Controls.Add(this.guna2Button11);
             this.Controls.Add(this.guna2Button10);
             this.Controls.Add(this.guna2Button9);
-            this.Controls.Add(this.guna2Button8);
+            this.Controls.Add(this.g2b_add);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.guna2TextBox4);
             this.Controls.Add(this.guna2TextBox3);
@@ -277,7 +278,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button11;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button g2b_add;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
