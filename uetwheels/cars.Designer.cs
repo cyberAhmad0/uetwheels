@@ -111,22 +111,22 @@
             // 
             // g2b_add
             // 
-            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.BorderRadius = 10;
-            this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button8.FillColor = System.Drawing.SystemColors.AppWorkspace;
-            this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button8.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button8.Location = new System.Drawing.Point(48, 366);
-            this.guna2Button8.Margin = new System.Windows.Forms.Padding(4);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.Size = new System.Drawing.Size(121, 44);
-            this.guna2Button8.TabIndex = 12;
-            this.guna2Button8.Text = "Add";
-            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
+            //this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
+            //this.guna2Button8.BorderRadius = 10;
+            //this.guna2Button8.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button8.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            //this.guna2Button8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            //this.guna2Button8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            //this.guna2Button8.FillColor = System.Drawing.SystemColors.AppWorkspace;
+            //this.guna2Button8.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            //this.guna2Button8.ForeColor = System.Drawing.Color.Black;
+            //this.guna2Button8.Location = new System.Drawing.Point(48, 366);
+            //this.guna2Button8.Margin = new System.Windows.Forms.Padding(4);
+            //this.guna2Button8.Name = "guna2Button8";
+            //this.guna2Button8.Size = new System.Drawing.Size(121, 44);
+            //this.guna2Button8.TabIndex = 12;
+            //this.guna2Button8.Text = "Add";
+            //this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             this.g2b_add.BackColor = System.Drawing.Color.Transparent;
             this.g2b_add.BorderRadius = 10;
             this.g2b_add.DisabledState.BorderColor = System.Drawing.Color.DarkGray;

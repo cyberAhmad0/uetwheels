@@ -130,10 +130,6 @@ namespace uetwheels
 
         }
 
-        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
 
         private void Adminform_Load(object sender, EventArgs e)
         {

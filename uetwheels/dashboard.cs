@@ -89,10 +89,5 @@ namespace uetwheels
             con.Close();
             label2.Text = cars.ToString();
         }
-
-        private void dashboard_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
