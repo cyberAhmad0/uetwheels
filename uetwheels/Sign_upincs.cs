@@ -47,8 +47,6 @@ namespace uetwheels
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             guna2Panel2.Controls.Clear();
-
-
             string username = guna2TextBox1.Text;
             string password = guna2TextBox2.Text;
             con.Open();
@@ -56,30 +54,14 @@ namespace uetwheels
             SqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {
-                string uname = reader.GetString(1);
-                string upass = reader.GetString(2);
-                if (username == uname && password == upass)
-                {
-                    MessageBox.Show("Userform are under maintainance");
-
-                }
-            }
-
-            if (username == "a" && password == "a")
-            {
                 Adminform form = new Adminform();
-                //form.TopLevel = false;
-                //form.BringToFront();
-                MessageBox.Show("Login Successfull");
                 form.Show();
-                //this.Close();
                 this.Hide();
             }
             else
             {
                 MessageBox.Show("Invalid Info");
             }
-            con.Close();
         }
     }
 }

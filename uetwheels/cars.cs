@@ -34,22 +34,14 @@ namespace uetwheels
 
         private void guna2Button8_Click(object sender, EventArgs e)
         {
-            string regno = guna2TextBox1.Text;
-            string brand = guna2TextBox2.Text;
-            int model = int.Parse(guna2TextBox3.Text);
-            int price = int.Parse(guna2TextBox4.Text);
-            string available = guna2ComboBox1.Text;
             con.Open();
-            SqlCommand cmd = new SqlCommand("insert into cars (regno, brand, model, price, available) values (@regno, @brand, @model, @price, @available)", con);
-            cmd.Parameters.AddWithValue("@RegNo", regno);
+            SqlCommand cmd = new SqlCommand("insert into cars (Brand, Model,Available,Price) values (@brand, @model, @available, @price)", con);
             cmd.Parameters.AddWithValue("@Brand", brand);
             cmd.Parameters.AddWithValue("@Model", model);
-            cmd.Parameters.AddWithValue("@Price", price);
             cmd.Parameters.AddWithValue("@Available", available);
+            cmd.Parameters.AddWithValue("@Price", price);
             cmd.ExecuteNonQuery();
             con.Close();
-
-            MessageBox.Show("Car added successfully!");
         }
     
 
@@ -60,38 +52,11 @@ namespace uetwheels
 
         private void guna2Button9_Click(object sender, EventArgs e)
         {
-            string regno = guna2TextBox1.Text;
-            string brand = guna2TextBox2.Text;     
-            int model = int.Parse(guna2TextBox3.Text);    
-            int newPrice = int.Parse(guna2TextBox4.Text); 
-            string newAvailability = guna2ComboBox1.Text;  
-
-            con.Open();
-            SqlCommand cmd = new SqlCommand("UPDATE cars SET brand = @Brand, model = @Model, price = @Price, available = @Available WHERE regno = @RegNo", con);
-
-            cmd.Parameters.AddWithValue("@Brand", brand);
-            cmd.Parameters.AddWithValue("@Model", model);
-            cmd.Parameters.AddWithValue("@Price", newPrice);
-            cmd.Parameters.AddWithValue("@Available", newAvailability);
-            cmd.Parameters.AddWithValue("@RegNo", regno);
-            cmd.ExecuteNonQuery();  
-            con.Close();
-
-            MessageBox.Show("Car price updated successfully");
 
         }
 
         private void guna2Button10_Click(object sender, EventArgs e)
         {
-            string regno = guna2TextBox1.Text;
-
-            con.Open();
-            SqlCommand cmd = new SqlCommand("DELETE FROM cars WHERE regno = @RegNo", con);
-            cmd.Parameters.AddWithValue("@RegNo", regno);
-            cmd.ExecuteNonQuery();
-            con.Close();
-
-            MessageBox.Show("Car deleted successfully!");
 
         }
 
