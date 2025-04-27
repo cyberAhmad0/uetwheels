@@ -79,6 +79,19 @@ namespace uetwheels
 
         private void g2b_add_Click(object sender, EventArgs e)
         {
+                string brand = guna2TextBox2.Text;
+                string model = guna2TextBox3.Text;
+                string price = guna2TextBox4.Text;
+                string available = guna2ComboBox1.Text;
+                con.Open();
+                SqlCommand cmd = new SqlCommand("insert into cars (Brand, Model,Available,Price) values (@brand, @model, @available, @price)", con);
+                cmd.Parameters.AddWithValue("@Brand", brand);
+                cmd.Parameters.AddWithValue("@Model", model);
+                cmd.Parameters.AddWithValue("@Available", available);
+                cmd.Parameters.AddWithValue("@Price", price);
+                cmd.ExecuteNonQuery();
+                con.Close();
+                MessageBox.Show("Car added successfully!");
 
         }
     }

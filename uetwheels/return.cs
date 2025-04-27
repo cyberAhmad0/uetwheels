@@ -120,11 +120,6 @@ namespace uetwheels
             {
                 fee = Convert.ToInt32(reader["rentfee"]);
             }
-            //MessageBox.Show(fee.ToString());
-            con.Close();
-            int fine = Convert.ToInt32(g2tb_fine.Text);
-            g2tb_amount.Text = (fee + fine).ToString();
-        }
 
         private void g2tb_amount_TextChanged(object sender, EventArgs e)
         {
