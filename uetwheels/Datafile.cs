@@ -16,7 +16,8 @@ namespace uetwheels
         public static List<customerinfo> customerlist = new List<customerinfo>();
         public static void loadcars()
         {
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             SqlCommand cmd = new SqlCommand(("Select * from carinfo"), con);
@@ -39,7 +40,7 @@ namespace uetwheels
 
         public static void addcustomer()
         {
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;";
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             SqlCommand cmd = new SqlCommand(("Select * from customer"), con);

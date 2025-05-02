@@ -70,7 +70,8 @@ namespace uetwheels
             int delay = Convert.ToInt32(g2tb_delay.Text);
             int fine = Convert.ToInt32(g2tb_fine.Text);
             int amount = Convert.ToInt32(g2tb_amount.Text);
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             SqlCommand cmd = new SqlCommand(("Insert into carreturn(car_name,cust_name,carreturn,Delay,Fine,Total_amount) values(@car_name,@cust_name,@carreturn,@Delay,@Fine,@TotalAmount)"), con);
@@ -94,7 +95,8 @@ namespace uetwheels
         {
             int car_reg = 0;
             string carname = g2cb_return.Text;
-            string conne = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conne = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con1 = new SqlConnection(conne);
             con1.Open();
             SqlCommand cmd1 = new SqlCommand(("Select Car_reg from carinfo where Brand = @car"), con1);
@@ -110,7 +112,8 @@ namespace uetwheels
             }
             //MessageBox.Show(car_reg.ToString());
             int fee = 0;
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             SqlCommand cmd = new SqlCommand(("Select rentfee from rental where Car_reg = @car"), con);
@@ -120,10 +123,33 @@ namespace uetwheels
             {
                 fee = Convert.ToInt32(reader["rentfee"]);
             }
+        }
 
         private void g2tb_amount_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            Adminform adminForm = new Adminform();
+            adminForm.Show();
+            this.Hide();
         }
     }
 }

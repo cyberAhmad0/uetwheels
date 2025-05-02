@@ -27,7 +27,19 @@ namespace uetwheels
 
         private void rental_Load(object sender, EventArgs e)
         {
-
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;";
+            using (SqlConnection con = new SqlConnection(conn))
+            {
+                con.Open();
+                string query = "SELECT car_reg FROM carinfo WHERE Available = 'Yes'";
+                SqlCommand cmd = new SqlCommand(query, con);
+                SqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    guna2ComboBox2.Items.Add(reader["car_reg"].ToString());
+                }
+                reader.Close();
+            }
         }
 
         private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -37,8 +49,9 @@ namespace uetwheels
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-            int car_reg = 0;
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string car_reg = "";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             string name = guna2ComboBox2.Text;
@@ -48,7 +61,7 @@ namespace uetwheels
             SqlDataReader reader = cmd.ExecuteReader();
             if(reader.Read())
             {
-                car_reg = Convert.ToInt32(reader["car_reg"]);
+                car_reg = reader["car_reg"].ToString();
             }
             else
             {
@@ -73,6 +86,18 @@ namespace uetwheels
             MessageBox.Show("Rented Successfully");
 
 
+        }
+
+        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            Adminform adminForm = new Adminform();
+            adminForm.Show();
+            this.Hide();
         }
     }
 }

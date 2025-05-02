@@ -13,7 +13,8 @@ namespace uetwheels
 {
     public partial class Form1 : Form
     {
-        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=project;Integrated Security=True";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
         public Form1()
         {
             InitializeComponent();
@@ -58,6 +59,16 @@ namespace uetwheels
         private void guna2ControlBox1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

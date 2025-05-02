@@ -77,7 +77,8 @@ namespace uetwheels
         private void carsindb()
         {
             int cars = 0;
-            string conn = "Data Source=DESKTOP-JP10DTH;Initial Catalog=rental;Integrated Security=True;";
+            string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
             SqlConnection con = new SqlConnection(conn);
             con.Open();
             SqlCommand cmd = new SqlCommand(("Select * from carinfo"), con);
@@ -88,6 +89,18 @@ namespace uetwheels
             }
             con.Close();
             label2.Text = cars.ToString();
+        }
+
+        private void dashboard_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button11_Click(object sender, EventArgs e)
+        {
+            Adminform adminForm = new Adminform();
+            adminForm.Show();
+            this.Hide();
         }
     }
 }

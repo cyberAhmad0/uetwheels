@@ -51,6 +51,7 @@
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.label8 = new System.Windows.Forms.Label();
+            this.guna2Button11 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
@@ -71,7 +72,7 @@
             this.guna2Panel1.Controls.Add(this.label2);
             this.guna2Panel1.Controls.Add(this.guna2PictureBox1);
             this.guna2Panel1.Location = new System.Drawing.Point(25, 245);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(147, 123);
             this.guna2Panel1.TabIndex = 0;
@@ -93,7 +94,7 @@
             this.guna2PictureBox1.Image = global::uetwheels.Properties.Resources.A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI_generated_PSD_removebg_preview;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(13, 4);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.Size = new System.Drawing.Size(93, 86);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -104,7 +105,7 @@
             // 
             this.guna2Panel2.Controls.Add(this.label1);
             this.guna2Panel2.Location = new System.Drawing.Point(25, 191);
-            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(147, 54);
             this.guna2Panel2.TabIndex = 0;
@@ -126,7 +127,7 @@
             this.guna2PictureBox4.Image = global::uetwheels.Properties.Resources.A_black_sports_car_with_the_license_plate_on_the_front___Premium_AI_generated_PSD_removebg_preview;
             this.guna2PictureBox4.ImageRotate = 0F;
             this.guna2PictureBox4.Location = new System.Drawing.Point(231, -21);
-            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox4.Name = "guna2PictureBox4";
             this.guna2PictureBox4.Size = new System.Drawing.Size(251, 204);
             this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,7 +141,7 @@
             this.guna2PictureBox2.Image = global::uetwheels.Properties.Resources.User_Icon_Vector_Illustration_In_Glyph_Style_For_Any_Purpose_PNG_Images___Icon__Illustration__Template_PNG_Transparent_Background___Pngtree_removebg_preview1;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(4, 4);
-            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.Size = new System.Drawing.Size(93, 86);
             this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -158,7 +159,7 @@
             this.guna2Panel3.Controls.Add(this.label3);
             this.guna2Panel3.Controls.Add(this.guna2PictureBox2);
             this.guna2Panel3.Location = new System.Drawing.Point(203, 245);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(147, 123);
             this.guna2Panel3.TabIndex = 0;
@@ -179,7 +180,7 @@
             // 
             this.guna2Panel4.Controls.Add(this.label4);
             this.guna2Panel4.Location = new System.Drawing.Point(203, 191);
-            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel4.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel4.Name = "guna2Panel4";
             this.guna2Panel4.Size = new System.Drawing.Size(147, 54);
             this.guna2Panel4.TabIndex = 2;
@@ -200,7 +201,7 @@
             this.guna2Panel5.Controls.Add(this.label5);
             this.guna2Panel5.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel5.Location = new System.Drawing.Point(388, 245);
-            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(147, 123);
             this.guna2Panel5.TabIndex = 2;
@@ -224,7 +225,7 @@
             this.guna2PictureBox3.Image = global::uetwheels.Properties.Resources.User_icon_png_vector___Pixsector__Free_vector_images__mockups__PSDs_and_photos_removebg_preview;
             this.guna2PictureBox3.ImageRotate = 0F;
             this.guna2PictureBox3.Location = new System.Drawing.Point(4, 4);
-            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
             this.guna2PictureBox3.Size = new System.Drawing.Size(93, 86);
             this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -235,7 +236,7 @@
             // 
             this.guna2Panel6.Controls.Add(this.label6);
             this.guna2Panel6.Location = new System.Drawing.Point(388, 191);
-            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel6.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(147, 54);
             this.guna2Panel6.TabIndex = 3;
@@ -256,7 +257,7 @@
             this.guna2Panel7.Controls.Add(this.label7);
             this.guna2Panel7.Controls.Add(this.guna2PictureBox5);
             this.guna2Panel7.Location = new System.Drawing.Point(571, 245);
-            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel7.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel7.Name = "guna2Panel7";
             this.guna2Panel7.Size = new System.Drawing.Size(147, 123);
             this.guna2Panel7.TabIndex = 2;
@@ -279,7 +280,7 @@
             this.guna2PictureBox5.Image = global::uetwheels.Properties.Resources.Money_Bag_SVG___Cash_Dollars_Finance_Wealth_Money_Sack_Printable_Clip_Art_Cut_File__Instant_Download__Commercial_Use__svg_png_jpg_eps_pdf_removebg_preview;
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(4, 4);
-            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2PictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(93, 86);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -290,7 +291,7 @@
             // 
             this.guna2Panel8.Controls.Add(this.label8);
             this.guna2Panel8.Location = new System.Drawing.Point(571, 191);
-            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.guna2Panel8.Margin = new System.Windows.Forms.Padding(4);
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(147, 54);
             this.guna2Panel8.TabIndex = 3;
@@ -299,19 +300,39 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Times New Roman", 12.25F, System.Drawing.FontStyle.Bold);
-            this.label8.Location = new System.Drawing.Point(-1, 20);
+            this.label8.Location = new System.Drawing.Point(7, 20);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(131, 24);
             this.label8.TabIndex = 1;
             this.label8.Text = "Monthly sales";
             // 
+            // guna2Button11
+            // 
+            this.guna2Button11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button11.BorderRadius = 10;
+            this.guna2Button11.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button11.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button11.FillColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.guna2Button11.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button11.ForeColor = System.Drawing.Color.White;
+            this.guna2Button11.Location = new System.Drawing.Point(279, 464);
+            this.guna2Button11.Margin = new System.Windows.Forms.Padding(4);
+            this.guna2Button11.Name = "guna2Button11";
+            this.guna2Button11.Size = new System.Drawing.Size(121, 44);
+            this.guna2Button11.TabIndex = 10;
+            this.guna2Button11.Text = "Back";
+            this.guna2Button11.Click += new System.EventHandler(this.guna2Button11_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(749, 441);
+            this.ClientSize = new System.Drawing.Size(1243, 729);
+            this.Controls.Add(this.guna2Button11);
             this.Controls.Add(this.guna2Panel8);
             this.Controls.Add(this.guna2Panel6);
             this.Controls.Add(this.guna2Panel7);
@@ -322,10 +343,10 @@
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "dashboard";
             this.Text = "dashboard";
-            //this.Load += new System.EventHandler(this.dashboard_Load);
+            this.Load += new System.EventHandler(this.dashboard_Load_1);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
@@ -375,5 +396,6 @@
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private System.Windows.Forms.Label label3;
+        private Guna.UI2.WinForms.Guna2Button guna2Button11;
     }
 }

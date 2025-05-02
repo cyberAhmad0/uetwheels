@@ -13,7 +13,8 @@ namespace uetwheels
 {
     public partial class userscs : Form
     {
-        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;";
+        static string conn = "Data Source=DESKTOP-3BTGOGP\\SQLEXPRESS;Initial Catalog=rental;Integrated Security=True;"
+;
         SqlConnection con = new SqlConnection(conn);
         public userscs()
         {
